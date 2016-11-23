@@ -12,7 +12,7 @@ Access cockpit at the following url: https://localhost:9090/
 
 ## Install Zclassic
 
-https://z.cash/download.html
+http://zclassic.org/#getstarted
 
 Follow the <a target="_blank" href="https://github.com/z-classic/zclassic/wiki/1.0-User-Guide">Install Guide</a> to build zcash from source.
 
@@ -55,7 +55,7 @@ ZEC -> t1Qecf6zPTwWQ8eEhMHrux65gPQVYjKVDdq
 BTC -> 17v5jgu57wGKJnwkhVHvgYhbCVTFt9xXSN
 
 
-<a target="_blank" href="http://z.cash/">z.cash</a> -> 
+<a target="_blank" href="/http://zclassic.org/">zclassic.org</a> -> 
 <a target="_blank" href="https://github.com/zcash/zcash/blob/master/doc/payment-api.md">1.0 Payment API</a> |
 <a target="_blank" href="https://github.com/zcash/zcash/wiki/1.0-User-Guide">1.0 User Guide</a> |
 <a target="_blank" href="https://github.com/zcash/zcash/wiki/Mining-Guide">Mining Guide</a> |

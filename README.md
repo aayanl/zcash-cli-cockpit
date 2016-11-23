@@ -1,6 +1,6 @@
-# zcash-cli-cockpit
+# zclassic-cli-cockpit
 
-zcash-cli cockpit plugin - a browser based wallet ui for zcash.
+zclassic-cli cockpit plugin - a browser based wallet ui for zcash.
 
 ## install cockpit
 Fedora Server comes with Cockpit installed.
@@ -10,23 +10,23 @@ http://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-cockpit-on-ubuntu-16
 
 Access cockpit at the following url: https://localhost:9090/
 
-## install zcash
+## install zclassic
 
 https://z.cash/download.html
 
-Follow the <a target="_blank" href="https://github.com/zcash/zcash/wiki/1.0-User-Guide">Install Guide</a> to build zcash from source.
+Follow the <a target="_blank" href="https://github.com/z-classic/zclassic/wiki/1.0-User-Guide">Install Guide</a> to build zcash from source.
 
 ## prepare your linux system
 Login to your linux server with your regular user account to get started.
 
     nproc and pidof commands are required to be functioning by this plugin.
 
-zcash-cli-cockpit plugin requires "zcash-cli" executable to be in your system path. It is possible to create a symbolic link to the "zcash-cli" binary.
+zclassic-cli-cockpit plugin requires "zcash-cli" executable to be in your system path. It is possible to create a symbolic link to the "zcash-cli" binary.
 
     cd zcash_git_checkout_dir
     sudo ln -sr ./src/zcash-cli /usr/bin/zcash-cli
 
-## installing zcash-cli-cockpit plugin
+## installing zclassic-cli-cockpit plugin
 Cockpit will search ~/.local/share/cockpit/ directory for plugins.
 
     mkdir ~/.local/share/cockpit/
@@ -34,7 +34,7 @@ Cockpit will search ~/.local/share/cockpit/ directory for plugins.
 Change directory and clone the git repository.
     
     cd ~/.local/share/cockpit/
-    git clone https://github.com/hellcatz/zcash-cli-cockpit
+    git clone https://github.com/aayanl/zclassic-cli-cockpit
     
 
 Upgrading? Since there is no official relase at this time, you must "pull" the lastest from "master" using git.
